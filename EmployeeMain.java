@@ -51,7 +51,8 @@ public class EmployeeMain {
     public static final String AVG_PAY_STR = "Average pay of employees: ";
     public static final String CATEGORIES_STR = "Employee category count: ";
     public static final String ERROR_MSG
-    = "USAGE: java EmployeeMain <inFile> <outFile>";
+        = "USAGE: java EmployeeMain <inFile> <outFile>";
+    
     /**
      * The main method for the program
      * 
@@ -110,7 +111,7 @@ public class EmployeeMain {
         // Method to implement
         return null;
     }
-    
+
     /**
      * Prints the details of all the employees using the same format from
      * the toString method
