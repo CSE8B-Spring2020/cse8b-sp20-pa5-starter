@@ -48,6 +48,7 @@ import java.util.Scanner;
  * @author (your name)
  */
 public class EmployeeMain {
+    public static final int NUM_ARGS = 2;
     public static final String AVG_PAY_STR = "Average pay of employees: ";
     public static final String CATEGORIES_STR = "Employee category count: ";
     public static final String ERROR_MSG
@@ -61,7 +62,7 @@ public class EmployeeMain {
      * @throws FileNotFoundException
      */
     public static void main(String[] args) throws FileNotFoundException {
-        if (args.length != 2) {
+        if (args.length != NUM_ARGS) {
             System.out.println(ERROR_MSG);
             return;
         }
