@@ -50,7 +50,8 @@ import java.util.Scanner;
 public class EmployeeMain {
     public static final String AVG_PAY_STR = "Average pay of employees: ";
     public static final String CATEGORIES_STR = "Employee category count: ";
-
+    public static final String ERROR_MSG
+    = "USAGE: java EmployeeMain <inFile> <outFile>";
     /**
      * The main method for the program
      * 
@@ -59,12 +60,17 @@ public class EmployeeMain {
      * @throws FileNotFoundException
      */
     public static void main(String[] args) throws FileNotFoundException {
+        if (args.length != 2) {
+            System.out.println(ERROR_MSG);
+            return;
+        }
         // args[0] - inputFile; args[1] - outputFile
         Employee[] employees = readEmployeesFromFile(args[0]);
         System.out.println(AVG_PAY_STR + averagePay(employees));
-        System.out.println(CATEGORIES_STR 
-                + Arrays.toString(categoryCount(employees)));
+        System.out.println(CATEGORIES_STR
+                            + Arrays.toString(categoryCount(employees)));
         printEmployeeDetails(employees);
+        printSpecificDetails(employees);
         writeEmployeesToFile(employees, args[1]);
     }
 
@@ -104,7 +110,7 @@ public class EmployeeMain {
         // Method to implement
         return null;
     }
-
+    
     /**
      * Prints the details of all the employees using the same format from
      * the toString method
@@ -115,6 +121,16 @@ public class EmployeeMain {
         // Method to implement
     }
 
+    /**
+     * Prints the details of all the employees using the same format from
+     * the toString method
+     *
+     * @param empArr The array of all employees
+     */
+    public static void printSpecificDetails(Employee[] empArr) {
+        // Method to implement
+    }
+    
     /**
      * Writes the details of all employees to a file using the same format from
      * the toString method appended with each employees biweekly pay
