@@ -5,7 +5,7 @@ Hourly Employee: empId=4, name=Daniel Sosa-Cobo, hoursWorked=61.0, wage=32.0, Pa
 Hourly Employee: empId=5, name=Emmanuel Gutierrez, hoursWorked=37.0, wage=19.0, Pay: 703.0
 Commissioned Employee: empId=6, name=Jiayuan Fu, grossSales=2606.0, commissionRate=0.62, Pay: 1615.72
 Commissioned Employee: empId=7, name=Xinhai Leng, grossSales=8189.0, commissionRate=0.39, Pay: 3193.71
-Hourly Employee: empId=8, name=Alex Sun, hoursWorked=85.0, wage=16.0, Pay: 1160.0
+Hourly Employee: empId=8, name=Alex Sun, hoursWorked=85.0, wage=16.0, Pay: 1400.0
 Salaried Employee: empId=9, name=Sicong Shen, baseSalary=35936.0, numWeeks=10, Pay: 7187.2
 Hourly Employee: empId=10, name=Yuzi Chu, hoursWorked=3.0, wage=43.0, Pay: 129.0
 Hourly Employee: empId=11, name=Reyna Yang, hoursWorked=28.0, wage=31.0, Pay: 868.0
@@ -26,7 +26,7 @@ Hourly Employee: empId=25, name=Martyna Marcinkowska, hoursWorked=27.0, wage=32.
 Commissioned Employee: empId=26, name=Derek Wadsworth, grossSales=72.0, commissionRate=0.53, Pay: 38.160000000000004
 Hourly Employee: empId=27, name=Yacun Wang, hoursWorked=47.0, wage=28.0, Pay: 1316.0
 Commissioned Employee: empId=28, name=Feifan Li, grossSales=4638.0, commissionRate=0.21, Pay: 973.98
-Hourly Employee: empId=29, name=Ke Xu, hoursWorked=90.0, wage=15.0, Pay: 975.0
+Hourly Employee: empId=29, name=Ke Xu, hoursWorked=90.0, wage=15.0, Pay: 1425.0
 Commissioned Employee: empId=30, name=Andrew Ballas, grossSales=5427.0, commissionRate=0.12, Pay: 651.24
 Hourly Employee: empId=31, name=Nathan Tang, hoursWorked=6.0, wage=32.0, Pay: 192.0
 Hourly Employee: empId=32, name=Nathalie Nguyen, hoursWorked=6.0, wage=36.0, Pay: 216.0
@@ -61,7 +61,7 @@ Salaried Employee: empId=60, name=Priyanka Nagasamudra, baseSalary=121152.0, num
 Hourly Employee: empId=61, name=Joshua Garcia, hoursWorked=80.0, wage=29.0, Pay: 2320.0
 Hourly Employee: empId=62, name=Juan Sandoval, hoursWorked=37.0, wage=24.0, Pay: 888.0
 Hourly Employee: empId=63, name=James Gaxiola, hoursWorked=8.0, wage=23.0, Pay: 184.0
-Hourly Employee: empId=64, name=Abel Vargas, hoursWorked=90.0, wage=39.0, Pay: 2535.0
+Hourly Employee: empId=64, name=Abel Vargas, hoursWorked=90.0, wage=39.0, Pay: 3705.0
 Salaried Employee: empId=65, name=Hieu Ho, baseSalary=135267.0, numWeeks=39, Pay: 7119.315789473684
 Hourly Employee: empId=66, name=Alex Dang, hoursWorked=17.0, wage=25.0, Pay: 425.0
 Hourly Employee: empId=67, name=Qi An, hoursWorked=69.0, wage=44.0, Pay: 3036.0
@@ -86,7 +86,7 @@ Salaried Employee: empId=85, name=Justin Nwanagu, baseSalary=72186.0, numWeeks=3
 Hourly Employee: empId=86, name=Aimee Vuong, hoursWorked=50.0, wage=25.0, Pay: 1250.0
 Commissioned Employee: empId=87, name=Duy Pham, grossSales=8773.0, commissionRate=0.25, Pay: 2193.25
 Commissioned Employee: empId=88, name=Stacy Menendez, grossSales=6712.0, commissionRate=0.67, Pay: 4497.04
-Hourly Employee: empId=89, name=Jennifer Trinh, hoursWorked=88.0, wage=33.0, Pay: 2244.0
+Hourly Employee: empId=89, name=Jennifer Trinh, hoursWorked=88.0, wage=33.0, Pay: 3036.0
 Hourly Employee: empId=90, name=John Palicki, hoursWorked=14.0, wage=37.0, Pay: 518.0
 Commissioned Employee: empId=91, name=Peter Hattendorf, grossSales=9601.0, commissionRate=0.75, Pay: 7200.75
 Salaried Employee: empId=92, name=Ethan Chen, baseSalary=158033.0, numWeeks=44, Pay: 7183.318181818182
